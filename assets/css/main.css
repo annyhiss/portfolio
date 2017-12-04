@@ -1,0 +1,273 @@
+h1,h2,h3,h4,h5,h6,a,li,ul,button {
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+}
+h1 {
+    font-size: 62px;
+    padding-bottom: 14px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+h2 {
+  font-size: 32px;
+  color: black;
+}
+
+h2,h3 {
+  padding-bottom: 6px;
+}
+
+h3 {
+  font-size: 26px;
+  color: black ;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: black;
+}
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: white;
+}
+
+}
+body {
+	background:#060e25;
+    font-family: 'Lora', serif;
+    font-style: normal;
+	font-weight: 300;
+    overflow-x: hidden;
+    
+}
+.jumbotron{
+	height: 550px;
+	background-color: transparent;
+}
+.intro {
+	text-align: center;
+	margin-top: 100px;
+}
+
+/*=====================main css===========================*/
+.navbar{
+	background-color: transparent;
+	margin-top: 1px;
+	border: 0px;
+}
+.nav li a{
+	font-size: 20px;
+	color: white !important;
+}
+.dropdown a:hover {
+    display: inline-block;
+    font-size: 10px;
+   background-color: white;
+}
+.dropdown span{
+	color: black;
+	font-size: 25px;
+}
+.navbar-form button{
+	color: black !important;
+}
+.navbar-form button:hover{
+	
+  	background-color: transparent;
+    font-size: 15px;
+    /*box-shadow: 3px 3px 1px black;*/
+    transition:all 0.6s ease-in-out;
+}
+ #quote{
+ 	margin-top: 70px;
+ }
+
+
+/*=====================================contact me css=============================*/
+#contact .col-md-4 {
+  padding-left: 0px;
+}
+
+#contact .col-md-12 {
+  padding-left: 0;
+}
+
+#contact form {
+  padding-top: 32px;
+}
+
+#contact .form-control {
+  border: 2px solid #f0f0f0;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact .form-control:hover {
+  border-color: #555;
+}
+
+#contact input {
+  height: 50px;
+}
+
+#contact input[type="submit"] {
+  background: #bfba55;
+  border-radius: 100px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact input[type="submit"]:hover {
+ /* background: transparent;*/
+  color: black;
+  font-size: 30px;
+
+
+
+}
+/*=============================footer css===========================*/
+footer {
+    background: #000;
+    color: #ffffff;
+    padding: 80px 0px;
+    position: relative;
+}
+
+footer .col-md-4 .fa {
+  color: #ffffff;
+  padding-right: 8px;
+}
+
+footer hr {
+  border-color: #121212;
+  margin-top: 62px;
+  margin-bottom: 42px;
+}
+
+footer .footer-copyright {
+  padding-top: 12px;
+}
+
+/*===============fa fa icons========================*/
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+    border: 2px solid #292929;
+    color: #292929;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 22px 12px 10px 12px;
+}
+
+.social-icon .icon-1 a:hover {
+	background-color: blue;
+    border-color: blue;
+    color: white;
+    transform: scale(1.1);
+    }
+
+ .social-icon .icon-2 a:hover {
+	background-color: #00b0ed;
+    border-color: #00b0ed;
+    color: white;
+    transform: scale(1.1);
+    }
+ .social-icon .icon-3 a:hover {
+	background-color: red;
+    border-color: red;
+    color: white;
+    transform: scale(1.1);
+    }
+   .social-icon .icon-4 a:hover {
+	background-color: #00e676;
+    border-color: green;
+    color: white;
+    transform: scale(1.1);
+    }
+   .social-icon .icon-5 a:hover {
+	background-color: #00b0ed;
+    border-color: #00b0ed;
+    color: white;
+    transform: scale(1.1);
+    }
+    .social-icon .icon-6 a:hover {
+	background-color:#bfba55 ;
+    border-color: #bfba55;
+    color: white;
+    transform: scale(1.1);
+    }
+     .social-icon .icon-7 a:hover {
+	background-color:#b02c8f ;
+    border-color: #e84d55;
+    color: white;
+    transform: scale(1.1);
+    }
+   
+
+
+
+
+/*==========================about================================*/
+
+#about .col-md-6 {
+  padding-top: 22px;
+  padding-bottom: 32px;
+}
+
+#about .col-md-6 img {
+  padding: 22px 0px 22px 22px;
+}
+
+#about .col-md-4 {
+  padding-bottom: 32px;
+}
+
+#about .col-md-4 img {
+  padding-top: 12px;
+}
+.about{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.go-top{
+	float: right;
+	font-size: 60px;
+	padding-right: 20px;
+}
+.back-to p{
+	font-size: 30px;
+}
